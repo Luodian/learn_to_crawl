@@ -56,8 +56,8 @@ def easy_download():
 
 
 if __name__ == "__main__":
-    # html = download("http://www.meetup.com/")
-    # file = open("/Users/luodian/Desktop/test.html", "w")
-    # file.writelines(html)
-    crawl_sitemap('http://example.webscraping.com/sitemap.xml')
+    html = download("http://www.meetup.com/")
+    file = open("/Users/luodian/Desktop/test.html", "w")
+    file.writelines(html)
+    # crawl_sitemap('http://example.webscraping.com/sitemap.xml')
 
